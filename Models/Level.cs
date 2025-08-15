@@ -1,3 +1,5 @@
+namespace ChessMazeApp.Models;
+
 public delegate void PieceChangedHandler(object sender, Piece piece);
 
 public class Level

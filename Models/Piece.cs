@@ -1,3 +1,7 @@
+using ChessMazeApp.Interfaces;
+
+namespace ChessMazeApp.Models;
+
 public class Piece : IPiece
 {
     public PieceType Type { get; init; }

@@ -1,3 +1,7 @@
+using ChessMazeApp.Models;
+
+namespace ChessMazeApp.Interfaces;
+
 public interface IBoard
 {
     int Rows { get; }

@@ -1,0 +1,5 @@
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.AssemblyInfoInputs.cache
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.AssemblyInfo.cs
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.csproj.CoreCompileInputs.cache
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.sourcelink.json

@@ -1,3 +1,7 @@
+using ChessMazeApp.Interfaces;
+
+namespace ChessMazeApp.Models;
+
 public class Board : IBoard
 {
     private readonly Piece?[,] _grid;
@@ -48,12 +52,9 @@ public class BoardSizeException : Exception
     public BoardSizeException(int rows, int cols) 
         : base($"Board size invalid: {rows}x{cols}.") { }
 }
-public class OutOfBoundsException : Exception
+public class OutOfBoundsException(Position pos, int rows, int cols) : Exception($"Position {pos} is outside bounds [0..{rows-1}, 0..{cols-1}].")
 {
-    public OutOfBoundsException(Position pos, int rows, int cols)
-        : base($"Position {pos} is outside bounds [0..{rows-1}, 0..{cols-1}].") { }
 }
-public class OverlapException : Exception
+public class OverlapException(Position pos) : Exception($"Cell {pos} already occupied.")
 {
-    public OverlapException(Position pos) : base($"Cell {pos} already occupied.") { }
 }

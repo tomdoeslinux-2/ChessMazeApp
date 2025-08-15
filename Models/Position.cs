@@ -1,3 +1,5 @@
+namespace ChessMazeApp.Models;
+
 public readonly struct Position
 {
     public int Row { get; }

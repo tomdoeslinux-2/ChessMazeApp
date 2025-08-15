@@ -1,8 +1,7 @@
-using System;
-using ChessMaze.Interfaces;
-using ChessMaze.Models;
+using ChessMazeApp.Interfaces;
+using ChessMazeApp.Models;
 
-namespace ChessMaze.Services.Validation;
+namespace ChessMazeApp.Services.Validation;
 
 public static class ValidationRunner
 {

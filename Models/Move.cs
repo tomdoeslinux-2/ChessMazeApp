@@ -1,3 +1,5 @@
+namespace ChessMazeApp.Models;
+
 public record Move(Position From, Position To, Piece? PieceMoved, Piece? PieceCaptured = null)
 {
     public override string ToString() =>

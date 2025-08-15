@@ -1,3 +1,5 @@
+namespace ChessMazeApp.Services;
+
 public class UndoService
 {
     private readonly Stack<Action> _undo = new();

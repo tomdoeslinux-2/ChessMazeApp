@@ -1,6 +1,10 @@
+using ChessMazeApp.Models;
+
+namespace ChessMazeApp.Services;
+
 public class LevelValidator
 {
-    public bool Validate(Level level, out string message)
+    public static bool Validate(Level level, out string message)
     {
         if (level.Start is { } start && level.End is { } end && start.Equals(end))
         {

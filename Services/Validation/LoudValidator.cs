@@ -1,7 +1,7 @@
-using ChessMaze.Interfaces;
-using ChessMaze.Models;
+using ChessMazeApp.Models;
+using ChessMazeApp.Services.Validation;
 
-namespace ChessMaze.Services.Validation;
+namespace ChessMazeApp.Services.Validation;
 
 public class LoudValidator : PiecePresenceValidator
 {

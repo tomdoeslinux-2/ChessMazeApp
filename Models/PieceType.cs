@@ -1,3 +1,5 @@
+namespace ChessMazeApp.Models;
+
 public enum PieceType
 {
     Knight,
