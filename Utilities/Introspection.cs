@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
 using System.Dynamic;
-using System.Linq;
 using System.Reflection;
+using ChessMazeApp.Models;
 
 public static class Introspection
 {
@@ -19,7 +17,7 @@ public static class Introspection
     public static dynamic BuildDynamicLevelSummary(Level level)
     {
         dynamic bag = new ExpandoObject();
-        bag.Size = $"{level.Board.Rows}x{level.Board.Cols}";
+        bag.Size = $"{level.Board.Row_Num}x{level.Board.Col_num}";
         bag.PieceCount = level.Pieces.Count;
         bag.Start = level.Start?.ToString();
         bag.End = level.End?.ToString();

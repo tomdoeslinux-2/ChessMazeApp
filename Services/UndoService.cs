@@ -2,14 +2,14 @@ namespace ChessMazeApp.Services;
 
 public class UndoService
 {
-    private readonly Stack<Action> _undo = new();
+    private readonly Stack<Action> _undoStack = new();
 
-    public void AddUndo(Action action) => _undo.Push(action);
+    public void addUndoToStack(Action action) => _undoStack.Push(action);
 
     public bool Undo()
     {
-        if (_undo.Count == 0) return false;
-        _undo.Pop().Invoke();
+        if (_undoStack.Count == 0) return false;
+        _undoStack.Pop().Invoke();
         return true;
     }
 

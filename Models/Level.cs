@@ -40,7 +40,7 @@ public class Level
     public void Save(string path, bool includePieces = true)
     {
         using var writer = new System.IO.StreamWriter(path);
-        writer.WriteLine($"Board: {Board.Rows}x{Board.Cols}");
+        writer.WriteLine($"Board: {Board.Row_Num}x{Board.Col_num}");
         writer.WriteLine($"Start: {Start?.ToString() ?? "(not set)"}");
         writer.WriteLine($"End:   {End?.ToString() ?? "(not set)"}");
 

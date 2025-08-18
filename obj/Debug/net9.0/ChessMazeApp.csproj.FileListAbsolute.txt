@@ -3,3 +3,13 @@ C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.Ass
 C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.AssemblyInfo.cs
 C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.csproj.CoreCompileInputs.cache
 C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.sourcelink.json
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\bin\Debug\net9.0\ChessMazeApp.exe
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\bin\Debug\net9.0\ChessMazeApp.deps.json
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\bin\Debug\net9.0\ChessMazeApp.runtimeconfig.json
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\bin\Debug\net9.0\ChessMazeApp.dll
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\bin\Debug\net9.0\ChessMazeApp.pdb
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.dll
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\refint\ChessMazeApp.dll
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.pdb
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ChessMazeApp.genruntimeconfig.cache
+C:\Users\tomdo\OneDrive\Documents\ChessMazeApp\obj\Debug\net9.0\ref\ChessMazeApp.dll

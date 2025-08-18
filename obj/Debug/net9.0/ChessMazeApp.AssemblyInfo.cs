@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChessMazeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80215ecbdbc837c8c8017d6152cd05fb10296aab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85f97168b6ccc9f0ab6fc845c656e5b42ddc2ef0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChessMazeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChessMazeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

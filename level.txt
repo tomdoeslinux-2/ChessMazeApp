@@ -1,0 +1,4 @@
+Board: 5x5
+Start: (0,0)
+End:   (4,4)
+Piece: Knight at (2,3)

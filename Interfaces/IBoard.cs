@@ -4,10 +4,10 @@ namespace ChessMazeApp.Interfaces;
 
 public interface IBoard
 {
-    int Rows { get; }
-    int Cols { get; }
+    int Row_Num { get; }
+    int Col_num { get; }
 
     Piece? this[int row, int col] { get; set; }
 
-    bool IsValidPosition(in Position pos);
+    bool PositionValid(in Position p);
 }
